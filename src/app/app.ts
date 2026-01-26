@@ -95,7 +95,7 @@ export class App {
       title: 'Dev Stuff',
     },
     {
-      icon: 'lucideCode',
+      icon: 'lucideLink',
       path: '/links',
       title: 'Links',
     },
