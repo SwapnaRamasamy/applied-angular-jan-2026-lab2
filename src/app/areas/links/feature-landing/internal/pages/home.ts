@@ -1,17 +1,7 @@
 import { Component, ChangeDetectionStrategy, signal } from '@angular/core';
 import { PageLayout } from '@ht/shared/ui-common/layouts/page';
+import { Resource } from '../types';
 /* Note - you can use either interface or type for this. The differences are so small, I don't care. I like 'type' */
-type ResourceLink = {
-  href: string;
-  label: string;
-};
-type Resource = {
-  id: string;
-  title: string;
-  description: string;
-  primaryLink: ResourceLink;
-  additionalLinks?: ResourceLink[];
-};
 
 @Component({
   selector: 'app-links-pages-home',
