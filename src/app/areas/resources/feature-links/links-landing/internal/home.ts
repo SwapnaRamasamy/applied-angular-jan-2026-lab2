@@ -2,10 +2,10 @@ import { Component, ChangeDetectionStrategy, signal } from '@angular/core';
 import { SectionLayout, SectionLink } from '@ht/shared/ui-common/layouts/section';
 
 @Component({
-  selector: 'app-links-home',
+  selector: 'app-resources-home',
   changeDetection: ChangeDetectionStrategy.OnPush,
   imports: [SectionLayout],
-  template: ` <app-ui-section-layout title="links" [links]="links()" /> `,
+  template: ` <app-ui-section-layout title="list" [links]="links()" /> `,
   styles: ``,
 })
 export class Home {

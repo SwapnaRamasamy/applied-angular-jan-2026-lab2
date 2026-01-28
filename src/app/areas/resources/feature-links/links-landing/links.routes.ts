@@ -1,7 +1,7 @@
 import { Routes } from '@angular/router';
-import { Home } from './internal/home';
-import { HomePage } from './internal/pages/home';
 
+import { HomePage } from './internal/pages/home';
+import { Home } from './internal/home';
 
 export const linksFeatureRoutes: Routes = [
   {
@@ -11,8 +11,8 @@ export const linksFeatureRoutes: Routes = [
     children: [
       {
         path: '',
-        component: HomePage
-      }
-    ]
+        component: HomePage,
+      },
+    ],
   },
 ];
