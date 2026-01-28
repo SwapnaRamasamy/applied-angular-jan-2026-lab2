@@ -45,7 +45,7 @@ export type Task = {
           </button>
         }
         <span
-          class="countdown font-mono text-green-500 text-2xl "
+          class="countdown font-mono text-green-500 text-2xl"
           [class.animate-pulse]="inTaskRecording()"
         >
           <span
